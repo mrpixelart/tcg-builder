@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22D6A9B31C46FC4C00EC1A9E"
-               BuildableName = "Test App.app"
-               BlueprintName = "Test App"
-               ReferencedContainer = "container:Test App.xcodeproj">
+               BuildableName = "TCG Builder.app"
+               BlueprintName = "TCG Builder"
+               ReferencedContainer = "container:TCG Builder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22D6A9B31C46FC4C00EC1A9E"
-            BuildableName = "Test App.app"
-            BlueprintName = "Test App"
-            ReferencedContainer = "container:Test App.xcodeproj">
+            BuildableName = "TCG Builder.app"
+            BlueprintName = "TCG Builder"
+            ReferencedContainer = "container:TCG Builder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22D6A9B31C46FC4C00EC1A9E"
-            BuildableName = "Test App.app"
-            BlueprintName = "Test App"
-            ReferencedContainer = "container:Test App.xcodeproj">
+            BuildableName = "TCG Builder.app"
+            BlueprintName = "TCG Builder"
+            ReferencedContainer = "container:TCG Builder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22D6A9B31C46FC4C00EC1A9E"
-            BuildableName = "Test App.app"
-            BlueprintName = "Test App"
-            ReferencedContainer = "container:Test App.xcodeproj">
+            BuildableName = "TCG Builder.app"
+            BlueprintName = "TCG Builder"
+            ReferencedContainer = "container:TCG Builder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
