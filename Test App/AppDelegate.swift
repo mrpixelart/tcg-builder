@@ -1,4 +1,5 @@
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -7,6 +8,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Parse
+        Deck.registerSubclass()
+        Parse.setApplicationId("ssHRvlpmE88mvk8aojp0clPcw9mHnU0fSI5btZg6",
+            clientKey: "biyIawqjmYrx1FFF71DRmJ2w2bmeoeH4DyzcOxfV")
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        
+        if PFUser.currentUser() == nil {
+            PFAnonymousUtils.logInWithBlock {
+                (user: PFUser?, error: NSError?) -> Void in
+                if (error != nil || user == nil) {
+                    print("Anonymous login failed.")
+                } else {
+                    print("Anonymous user logged in.")
+                }
+            }
+        }
         return true
     }
 

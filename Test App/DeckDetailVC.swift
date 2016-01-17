@@ -2,9 +2,12 @@ import UIKit
 
 class DeckDetailVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var deck = Deck()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        title = deck.name
     }
     
     //MARK: UITableViewDataSource
