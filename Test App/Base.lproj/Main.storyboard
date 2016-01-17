@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -710,6 +710,11 @@
                             <constraint firstItem="e18-cd-rjo" firstAttribute="top" secondItem="A3B-gY-4Hv" secondAttribute="top" id="prx-Bi-nfv"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="O0E-oP-JgU">
+                        <barButtonItem key="rightBarButtonItem" image="share-white" id="ZaL-xh-Fu3"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A55-V0-HaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -816,8 +821,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My Decks" id="Bes-4y-Se3">
-                        <barButtonItem key="leftBarButtonItem" title="Edit" id="hmP-Ze-VZl"/>
-                        <barButtonItem key="rightBarButtonItem" title="+" id="UI5-95-vTb">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" style="plain" id="hmP-Ze-VZl"/>
+                        <barButtonItem key="rightBarButtonItem" image="add-deck" style="plain" id="UI5-95-vTb">
                             <connections>
                                 <action selector="addDeck:" destination="qna-fT-ESG" id="dCb-C0-aVJ"/>
                             </connections>
@@ -852,6 +857,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add-deck" width="12" height="12"/>
         <image name="blastoise" width="60" height="51"/>
         <image name="card-background" width="245" height="324"/>
         <image name="detail-card" width="126" height="176"/>
@@ -861,6 +867,7 @@
         <image name="second" width="20" height="20"/>
         <image name="set" width="10" height="10"/>
         <image name="share" width="20" height="20"/>
+        <image name="share-white" width="20" height="20"/>
         <image name="tcgplayer-logo" width="43" height="16"/>
         <image name="type" width="10" height="10"/>
     </resources>

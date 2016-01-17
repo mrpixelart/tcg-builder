@@ -169,7 +169,7 @@
 				TargetAttributes = {
 					22D6A9B31C46FC4C00EC1A9E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = UG3J7KVH5S;
+						DevelopmentTeam = 7T4HN63D48;
 					};
 				};
 			};
@@ -380,7 +380,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jeremiah.TCG-Builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mitch.TCG-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -393,7 +393,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Jeremiah.TCG-Builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mitch.TCG-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

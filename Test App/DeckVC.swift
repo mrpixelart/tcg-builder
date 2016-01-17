@@ -43,7 +43,7 @@ class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("deckCell") as! DeckCell
         //setup cell
-        cell.setCell(deckList[indexPath.row].name)
+        cell.setCell(deckList[indexPath.row])
         
         return cell
     }
@@ -65,6 +65,10 @@ class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         
         
+    }
+    
+    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return CGFloat.min
     }
     
     //MARK: PrepareForSegue
