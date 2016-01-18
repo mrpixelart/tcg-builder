@@ -81,9 +81,9 @@
 		22D6A9B61C46FC4C00EC1A9E /* TCG Builder */ = {
 			isa = PBXGroup;
 			children = (
-				48F34CAE1C4B07B400BF3BCC /* Models */,
-				48F34CA91C4AF93700BF3BCC /* Cells */,
-				48F34CA81C4AF92B00BF3BCC /* View Controllers */,
+				4CB40B0C1C4DA26100A09E03 /* Card Detail */,
+				4CB40B0A1C4DA06700A09E03 /* Deck */,
+				48F34CA81C4AF92B00BF3BCC /* Search */,
 				22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */,
 				22D6A9BD1C46FC4C00EC1A9E /* Main.storyboard */,
 				22D6A9C01C46FC4C00EC1A9E /* Assets.xcassets */,
@@ -94,36 +94,36 @@
 			path = "Test App";
 			sourceTree = "<group>";
 		};
-		48F34CA81C4AF92B00BF3BCC /* View Controllers */ = {
+		48F34CA81C4AF92B00BF3BCC /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */,
+				2276F8661C4D799D00A8D57B /* FilterCell.swift */,
 				48F34CA41C4AF04000BF3BCC /* SearchVC.swift */,
-				22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */,
-				48F34CA61C4AF05800BF3BCC /* CardDetailVC.swift */,
 				22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */,
 			);
-			name = "View Controllers";
+			name = Search;
 			sourceTree = "<group>";
 		};
-		48F34CA91C4AF93700BF3BCC /* Cells */ = {
+		4CB40B0A1C4DA06700A09E03 /* Deck */ = {
 			isa = PBXGroup;
 			children = (
-				48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */,
-				48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */,
-				48A234601C4B0E520086BA7C /* DeckCell.swift */,
-				2276F8661C4D799D00A8D57B /* FilterCell.swift */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
-		48F34CAE1C4B07B400BF3BCC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				48F34CAF1C4B082700BF3BCC /* Deck.swift */,
 				22A7C4C41C4D5B3000B1D20D /* Card.swift */,
+				48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */,
+				22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */,
+				48F34CAF1C4B082700BF3BCC /* Deck.swift */,
+				48A234601C4B0E520086BA7C /* DeckCell.swift */,
+				22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */,
 			);
-			name = Models;
+			name = Deck;
+			sourceTree = "<group>";
+		};
+		4CB40B0C1C4DA26100A09E03 /* Card Detail */ = {
+			isa = PBXGroup;
+			children = (
+				48F34CA61C4AF05800BF3BCC /* CardDetailVC.swift */,
+				48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */,
+			);
+			name = "Card Detail";
 			sourceTree = "<group>";
 		};
 		755BC9F444DB182D45CA6B20 /* Pods */ = {
