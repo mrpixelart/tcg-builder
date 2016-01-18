@@ -6,6 +6,7 @@ class CardDetailVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         super.viewDidLoad()
     }
     
+    
     //MARK: UITableViewDataSource
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cardMetaCell")!
@@ -14,7 +15,7 @@ class CardDetailVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 1
     }
     
     //MARK: UITableViewDelegate

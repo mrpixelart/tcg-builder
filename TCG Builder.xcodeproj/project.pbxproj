@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2276F8671C4D799D00A8D57B /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276F8661C4D799D00A8D57B /* FilterCell.swift */; };
+		22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C41C4D5B3000B1D20D /* Card.swift */; };
+		22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */; };
 		22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */; };
 		22D6A9BA1C46FC4C00EC1A9E /* DeckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */; };
 		22D6A9BC1C46FC4C00EC1A9E /* DeckDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2276F8661C4D799D00A8D57B /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		22A7C4C41C4D5B3000B1D20D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		22D6A9B41C46FC4C00EC1A9E /* TCG Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCG Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckVC.swift; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 				48F34CA41C4AF04000BF3BCC /* SearchVC.swift */,
 				22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */,
 				48F34CA61C4AF05800BF3BCC /* CardDetailVC.swift */,
+				22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -105,6 +112,7 @@
 				48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */,
 				48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */,
 				48A234601C4B0E520086BA7C /* DeckCell.swift */,
+				2276F8661C4D799D00A8D57B /* FilterCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				48F34CAF1C4B082700BF3BCC /* Deck.swift */,
+				22A7C4C41C4D5B3000B1D20D /* Card.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -258,13 +267,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F34CA71C4AF05800BF3BCC /* CardDetailVC.swift in Sources */,
+				2276F8671C4D799D00A8D57B /* FilterCell.swift in Sources */,
 				48F34CA51C4AF04000BF3BCC /* SearchVC.swift in Sources */,
 				22D6A9BC1C46FC4C00EC1A9E /* DeckDetailVC.swift in Sources */,
 				48A234611C4B0E520086BA7C /* DeckCell.swift in Sources */,
 				22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */,
 				48F34CB01C4B082700BF3BCC /* Deck.swift in Sources */,
 				48F34CAB1C4AF94B00BF3BCC /* CardDetailCell.swift in Sources */,
+				22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */,
 				22D6A9BA1C46FC4C00EC1A9E /* DeckVC.swift in Sources */,
+				22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */,
 				48F34CAD1C4AFF0100BF3BCC /* CardMetaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
