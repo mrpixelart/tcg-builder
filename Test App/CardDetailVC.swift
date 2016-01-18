@@ -18,6 +18,8 @@ class CardDetailVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         return 1
     }
     
+    
+    
     //MARK: UITableViewDelegate
 
     

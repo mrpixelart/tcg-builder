@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2276F8671C4D799D00A8D57B /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276F8661C4D799D00A8D57B /* FilterCell.swift */; };
+		2276F8691C4D838B00A8D57B /* CardInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276F8681C4D838B00A8D57B /* CardInfoCell.swift */; };
 		22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C41C4D5B3000B1D20D /* Card.swift */; };
 		22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */; };
 		22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2276F8661C4D799D00A8D57B /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		2276F8681C4D838B00A8D57B /* CardInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfoCell.swift; sourceTree = "<group>"; };
 		22A7C4C41C4D5B3000B1D20D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		22D6A9B41C46FC4C00EC1A9E /* TCG Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCG Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */,
 				48A234601C4B0E520086BA7C /* DeckCell.swift */,
 				2276F8661C4D799D00A8D57B /* FilterCell.swift */,
+				2276F8681C4D838B00A8D57B /* CardInfoCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */,
 				22D6A9BA1C46FC4C00EC1A9E /* DeckVC.swift in Sources */,
 				22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */,
+				2276F8691C4D838B00A8D57B /* CardInfoCell.swift in Sources */,
 				48F34CAD1C4AFF0100BF3BCC /* CardMetaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
