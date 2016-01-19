@@ -26,8 +26,22 @@
 		4CB40B111C4DA4C300A09E03 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B101C4DA4C300A09E03 /* Session.swift */; };
 		4CB40B131C4DA54800A09E03 /* SessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B121C4DA54800A09E03 /* SessionCoordinator.swift */; };
 		4CB40B151C4DA59600A09E03 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */; };
+		4CB40B271C4DBA4500A09E03 /* DeckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B261C4DBA4500A09E03 /* DeckModel.swift */; };
+		4CB40B2A1C4DBA4F00A09E03 /* DeckModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B281C4DBA4B00A09E03 /* DeckModelTests.swift */; };
+		4CB40B2D1C4DBDBB00A09E03 /* DeckQueryRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B2C1C4DBDBB00A09E03 /* DeckQueryRunner.swift */; };
+		4CB40B2F1C4DBF1A00A09E03 /* DeckCRUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B2E1C4DBF1A00A09E03 /* DeckCRUDManager.swift */; };
 		8A3C2B7E51F69E7F81AA3874 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA5DF58FB127EDE663906C /* Pods.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB40B211C4DBA3700A09E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D6A9AC1C46FC4C00EC1A9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D6A9B31C46FC4C00EC1A9E;
+			remoteInfo = "TCG Builder";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2276F8661C4D799D00A8D57B /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
@@ -52,6 +66,12 @@
 		4CB40B101C4DA4C300A09E03 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		4CB40B121C4DA54800A09E03 /* SessionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionCoordinator.swift; sourceTree = "<group>"; };
 		4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		4CB40B1C1C4DBA3700A09E03 /* TCG BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCG BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB40B201C4DBA3700A09E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB40B261C4DBA4500A09E03 /* DeckModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckModel.swift; sourceTree = "<group>"; };
+		4CB40B281C4DBA4B00A09E03 /* DeckModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckModelTests.swift; sourceTree = "<group>"; };
+		4CB40B2C1C4DBDBB00A09E03 /* DeckQueryRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckQueryRunner.swift; sourceTree = "<group>"; };
+		4CB40B2E1C4DBF1A00A09E03 /* DeckCRUDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckCRUDManager.swift; sourceTree = "<group>"; };
 		A1907539C9F4BAFF6FC3DF27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D33F6940212E776E84867E9A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CB40B191C4DBA3700A09E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				22D6A9B61C46FC4C00EC1A9E /* TCG Builder */,
+				4CB40B1D1C4DBA3700A09E03 /* TCG BuilderTests */,
 				22D6A9B51C46FC4C00EC1A9E /* Products */,
 				755BC9F444DB182D45CA6B20 /* Pods */,
 				E6D9C29630E4EF11E647BDFF /* Frameworks */,
@@ -82,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				22D6A9B41C46FC4C00EC1A9E /* TCG Builder.app */,
+				4CB40B1C1C4DBA3700A09E03 /* TCG BuilderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +118,7 @@
 		22D6A9B61C46FC4C00EC1A9E /* TCG Builder */ = {
 			isa = PBXGroup;
 			children = (
+				4CB40B2B1C4DBD9F00A09E03 /* Parse Utilities */,
 				4CB40B0D1C4DA43700A09E03 /* Session */,
 				4CB40B0C1C4DA26100A09E03 /* Card Detail */,
 				4CB40B0A1C4DA06700A09E03 /* Deck */,
@@ -116,12 +146,14 @@
 		4CB40B0A1C4DA06700A09E03 /* Deck */ = {
 			isa = PBXGroup;
 			children = (
-				22D6A9B91C46FC4C00EC1A9E /* DeckViewController.swift */,
 				22A7C4C41C4D5B3000B1D20D /* Card.swift */,
 				48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */,
 				22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */,
 				48F34CAF1C4B082700BF3BCC /* Deck.swift */,
 				48A234601C4B0E520086BA7C /* DeckCell.swift */,
+				22D6A9B91C46FC4C00EC1A9E /* DeckViewController.swift */,
+				4CB40B261C4DBA4500A09E03 /* DeckModel.swift */,
+				4CB40B281C4DBA4B00A09E03 /* DeckModelTests.swift */,
 			);
 			name = Deck;
 			sourceTree = "<group>";
@@ -144,6 +176,23 @@
 				4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */,
 			);
 			name = Session;
+			sourceTree = "<group>";
+		};
+		4CB40B1D1C4DBA3700A09E03 /* TCG BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB40B201C4DBA3700A09E03 /* Info.plist */,
+			);
+			path = "TCG BuilderTests";
+			sourceTree = "<group>";
+		};
+		4CB40B2B1C4DBD9F00A09E03 /* Parse Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4CB40B2C1C4DBDBB00A09E03 /* DeckQueryRunner.swift */,
+				4CB40B2E1C4DBF1A00A09E03 /* DeckCRUDManager.swift */,
+			);
+			name = "Parse Utilities";
 			sourceTree = "<group>";
 		};
 		755BC9F444DB182D45CA6B20 /* Pods */ = {
@@ -186,19 +235,41 @@
 			productReference = 22D6A9B41C46FC4C00EC1A9E /* TCG Builder.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4CB40B1B1C4DBA3700A09E03 /* TCG BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB40B251C4DBA3700A09E03 /* Build configuration list for PBXNativeTarget "TCG BuilderTests" */;
+			buildPhases = (
+				4CB40B181C4DBA3700A09E03 /* Sources */,
+				4CB40B191C4DBA3700A09E03 /* Frameworks */,
+				4CB40B1A1C4DBA3700A09E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB40B221C4DBA3700A09E03 /* PBXTargetDependency */,
+			);
+			name = "TCG BuilderTests";
+			productName = "TCG BuilderTests";
+			productReference = 4CB40B1C1C4DBA3700A09E03 /* TCG BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		22D6A9AC1C46FC4C00EC1A9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mitch Ray";
 				TargetAttributes = {
 					22D6A9B31C46FC4C00EC1A9E = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 7T4HN63D48;
+					};
+					4CB40B1B1C4DBA3700A09E03 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 22D6A9B31C46FC4C00EC1A9E;
 					};
 				};
 			};
@@ -216,6 +287,7 @@
 			projectRoot = "";
 			targets = (
 				22D6A9B31C46FC4C00EC1A9E /* TCG Builder */,
+				4CB40B1B1C4DBA3700A09E03 /* TCG BuilderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +300,13 @@
 				22D6A9C41C46FC4C00EC1A9E /* LaunchScreen.storyboard in Resources */,
 				22D6A9C11C46FC4C00EC1A9E /* Assets.xcassets in Resources */,
 				22D6A9BF1C46FC4C00EC1A9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB40B1A1C4DBA3700A09E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +368,10 @@
 				48F34CA71C4AF05800BF3BCC /* CardDetailVC.swift in Sources */,
 				2276F8671C4D799D00A8D57B /* FilterCell.swift in Sources */,
 				48F34CA51C4AF04000BF3BCC /* SearchVC.swift in Sources */,
+				4CB40B2F1C4DBF1A00A09E03 /* DeckCRUDManager.swift in Sources */,
 				22D6A9BC1C46FC4C00EC1A9E /* DeckDetailVC.swift in Sources */,
 				4CB40B131C4DA54800A09E03 /* SessionCoordinator.swift in Sources */,
+				4CB40B271C4DBA4500A09E03 /* DeckModel.swift in Sources */,
 				48A234611C4B0E520086BA7C /* DeckCell.swift in Sources */,
 				22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */,
 				4CB40B111C4DA4C300A09E03 /* Session.swift in Sources */,
@@ -299,13 +380,30 @@
 				22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */,
 				22D6A9BA1C46FC4C00EC1A9E /* DeckViewController.swift in Sources */,
 				4CB40B151C4DA59600A09E03 /* LoadingViewController.swift in Sources */,
+				4CB40B2D1C4DBDBB00A09E03 /* DeckQueryRunner.swift in Sources */,
 				22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */,
 				48F34CAD1C4AFF0100BF3BCC /* CardMetaCell.swift in Sources */,
 				4CB40B0F1C4DA44000A09E03 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CB40B181C4DBA3700A09E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB40B2A1C4DBA4F00A09E03 /* DeckModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB40B221C4DBA3700A09E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D6A9B31C46FC4C00EC1A9E /* TCG Builder */;
+			targetProxy = 4CB40B211C4DBA3700A09E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22D6A9BD1C46FC4C00EC1A9E /* Main.storyboard */ = {
@@ -434,6 +532,32 @@
 			};
 			name = Release;
 		};
+		4CB40B231C4DBA3700A09E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCG BuilderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mitch.TCG-Builder.TCG-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCG Builder.app/TCG Builder";
+			};
+			name = Debug;
+		};
+		4CB40B241C4DBA3700A09E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TCG BuilderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mitch.TCG-Builder.TCG-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCG Builder.app/TCG Builder";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +578,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4CB40B251C4DBA3700A09E03 /* Build configuration list for PBXNativeTarget "TCG BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB40B231C4DBA3700A09E03 /* Debug */,
+				4CB40B241C4DBA3700A09E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
