@@ -783,10 +783,10 @@
             </objects>
             <point key="canvasLocation" x="2145" y="-97"/>
         </scene>
-        <!--Decks-->
+        <!--DeckViewController-->
         <scene sceneID="ISw-d5-1zC">
             <objects>
-                <viewController id="qna-fT-ESG" customClass="DeckVC" customModule="TCG_Builder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qna-fT-ESG" userLabel="DeckViewController" customClass="DeckViewController" customModule="TCG_Builder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4ve-QH-4bH"/>
                         <viewControllerLayoutGuide type="bottom" id="EQ3-xL-z7P"/>

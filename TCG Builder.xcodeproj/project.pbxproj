@@ -11,7 +11,7 @@
 		22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C41C4D5B3000B1D20D /* Card.swift */; };
 		22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */; };
 		22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */; };
-		22D6A9BA1C46FC4C00EC1A9E /* DeckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */; };
+		22D6A9BA1C46FC4C00EC1A9E /* DeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9B91C46FC4C00EC1A9E /* DeckViewController.swift */; };
 		22D6A9BC1C46FC4C00EC1A9E /* DeckDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */; };
 		22D6A9BF1C46FC4C00EC1A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D6A9BD1C46FC4C00EC1A9E /* Main.storyboard */; };
 		22D6A9C11C46FC4C00EC1A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D6A9C01C46FC4C00EC1A9E /* Assets.xcassets */; };
@@ -22,6 +22,10 @@
 		48F34CAB1C4AF94B00BF3BCC /* CardDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */; };
 		48F34CAD1C4AFF0100BF3BCC /* CardMetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */; };
 		48F34CB01C4B082700BF3BCC /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F34CAF1C4B082700BF3BCC /* Deck.swift */; };
+		4CB40B0F1C4DA44000A09E03 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B0E1C4DA44000A09E03 /* SessionManager.swift */; };
+		4CB40B111C4DA4C300A09E03 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B101C4DA4C300A09E03 /* Session.swift */; };
+		4CB40B131C4DA54800A09E03 /* SessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B121C4DA54800A09E03 /* SessionCoordinator.swift */; };
+		4CB40B151C4DA59600A09E03 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */; };
 		8A3C2B7E51F69E7F81AA3874 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA5DF58FB127EDE663906C /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +35,7 @@
 		22A7C4C61C4D69EB00B1D20D /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		22D6A9B41C46FC4C00EC1A9E /* TCG Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCG Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D6A9B71C46FC4C00EC1A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckVC.swift; sourceTree = "<group>"; };
+		22D6A9B91C46FC4C00EC1A9E /* DeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewController.swift; sourceTree = "<group>"; };
 		22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckDetailVC.swift; sourceTree = "<group>"; };
 		22D6A9BE1C46FC4C00EC1A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D6A9C01C46FC4C00EC1A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +48,10 @@
 		48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailCell.swift; sourceTree = "<group>"; };
 		48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardMetaCell.swift; sourceTree = "<group>"; };
 		48F34CAF1C4B082700BF3BCC /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4CB40B0E1C4DA44000A09E03 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4CB40B101C4DA4C300A09E03 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		4CB40B121C4DA54800A09E03 /* SessionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionCoordinator.swift; sourceTree = "<group>"; };
+		4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		A1907539C9F4BAFF6FC3DF27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D33F6940212E776E84867E9A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +89,7 @@
 		22D6A9B61C46FC4C00EC1A9E /* TCG Builder */ = {
 			isa = PBXGroup;
 			children = (
+				4CB40B0D1C4DA43700A09E03 /* Session */,
 				4CB40B0C1C4DA26100A09E03 /* Card Detail */,
 				4CB40B0A1C4DA06700A09E03 /* Deck */,
 				48F34CA81C4AF92B00BF3BCC /* Search */,
@@ -107,12 +116,12 @@
 		4CB40B0A1C4DA06700A09E03 /* Deck */ = {
 			isa = PBXGroup;
 			children = (
+				22D6A9B91C46FC4C00EC1A9E /* DeckViewController.swift */,
 				22A7C4C41C4D5B3000B1D20D /* Card.swift */,
 				48F34CAA1C4AF94B00BF3BCC /* CardDetailCell.swift */,
 				22D6A9BB1C46FC4C00EC1A9E /* DeckDetailVC.swift */,
 				48F34CAF1C4B082700BF3BCC /* Deck.swift */,
 				48A234601C4B0E520086BA7C /* DeckCell.swift */,
-				22D6A9B91C46FC4C00EC1A9E /* DeckVC.swift */,
 			);
 			name = Deck;
 			sourceTree = "<group>";
@@ -124,6 +133,17 @@
 				48F34CAC1C4AFF0100BF3BCC /* CardMetaCell.swift */,
 			);
 			name = "Card Detail";
+			sourceTree = "<group>";
+		};
+		4CB40B0D1C4DA43700A09E03 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				4CB40B101C4DA4C300A09E03 /* Session.swift */,
+				4CB40B0E1C4DA44000A09E03 /* SessionManager.swift */,
+				4CB40B121C4DA54800A09E03 /* SessionCoordinator.swift */,
+				4CB40B141C4DA59600A09E03 /* LoadingViewController.swift */,
+			);
+			name = Session;
 			sourceTree = "<group>";
 		};
 		755BC9F444DB182D45CA6B20 /* Pods */ = {
@@ -270,14 +290,18 @@
 				2276F8671C4D799D00A8D57B /* FilterCell.swift in Sources */,
 				48F34CA51C4AF04000BF3BCC /* SearchVC.swift in Sources */,
 				22D6A9BC1C46FC4C00EC1A9E /* DeckDetailVC.swift in Sources */,
+				4CB40B131C4DA54800A09E03 /* SessionCoordinator.swift in Sources */,
 				48A234611C4B0E520086BA7C /* DeckCell.swift in Sources */,
 				22D6A9B81C46FC4C00EC1A9E /* AppDelegate.swift in Sources */,
+				4CB40B111C4DA4C300A09E03 /* Session.swift in Sources */,
 				48F34CB01C4B082700BF3BCC /* Deck.swift in Sources */,
 				48F34CAB1C4AF94B00BF3BCC /* CardDetailCell.swift in Sources */,
 				22A7C4C51C4D5B3000B1D20D /* Card.swift in Sources */,
-				22D6A9BA1C46FC4C00EC1A9E /* DeckVC.swift in Sources */,
+				22D6A9BA1C46FC4C00EC1A9E /* DeckViewController.swift in Sources */,
+				4CB40B151C4DA59600A09E03 /* LoadingViewController.swift in Sources */,
 				22A7C4C71C4D69EB00B1D20D /* FilterVC.swift in Sources */,
 				48F34CAD1C4AFF0100BF3BCC /* CardMetaCell.swift in Sources */,
+				4CB40B0F1C4DA44000A09E03 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,16 +1,30 @@
 import UIKit
 import Parse
 
-class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class DeckViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, SessionCoordinatorDelegate {
     
     var deckList = [Deck]()
-    
+    var sessionCoordinator: SessionCoordinator?
+    var session: Session?
+
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        reload()
+        sessionCoordinator = SessionCoordinator(navigationController: self.navigationController!, sessionCoordinatorDelegate: self)
+        sessionCoordinator!.startSession()
+    }
+    
+    func authenticatedWithSession(session: Session) {
+        self.session = session
+        self.reload()
+    }
+    
+    func authenticationFailedWithError(error: NSError) {
+        let alert = UIAlertController(title: "Error", message: "Failed to authenticate: \(error.localizedDescription)", preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Cancel , handler: nil))
+        presentViewController(alert, animated: true, completion: nil)
     }
     
     //MARK: Actions
@@ -22,15 +36,11 @@ class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 deck.name = text
                 deck.cardCount = 0
                 deck.format = "Standard"
-                if let user = PFUser.currentUser() {
-                    deck.user = user
-                }
+                deck.user = self.session!.user
                 deck.saveInBackground()
                 self.reload()
             }
-            
         }))
-        
         
         alert.addAction(UIAlertAction(title: "Cancel", style: .Cancel , handler: nil))
         alert.addTextFieldWithConfigurationHandler { textField in
@@ -62,9 +72,6 @@ class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 tableView.reloadData()
             }
         }
-        
-        
-        
     }
     
     func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
@@ -83,19 +90,16 @@ class DeckVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     //MARK: Helpers
     func reload() {
-        if let user = PFUser.currentUser() {
-            let query = Deck.query()
-            query?.whereKey("user", equalTo: user)
-            
-            query?.findObjectsInBackgroundWithBlock({ (decks, error) in
-                if let decks = decks as? [Deck] {
-                    print(decks.count)
-                    self.deckList = decks
-                    self.tableView.reloadData()
-                }
-            })
-        }
+        let query = Deck.query()
+        query?.whereKey("user", equalTo: session!.user)
         
+        query?.findObjectsInBackgroundWithBlock({ (decks, error) in
+            if let decks = decks as? [Deck] {
+                print(decks.count)
+                self.deckList = decks
+                self.tableView.reloadData()
+            }
+        })
     }
 }
 
